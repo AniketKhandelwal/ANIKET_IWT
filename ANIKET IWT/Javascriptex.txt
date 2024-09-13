@@ -1,0 +1,9 @@
+									--Javascript--
+
+Javascript is a scripting language that is used to define the behaviour of the webpages. Javascript can change the html content as it provides functionality to the webpages.
+Javascript uses [DOCUMENT OBJECT MODEL] DOM.  
+DOM stands for document object model where a document page or webpage is represented in form of a tree with different nodes that can be objectified and give different functionality. basically dom is a programming interface that allows us to create , change or delete and remove the elements from the webpage.
+
+Q create a html page with three paragraphs with 3 different colours and a button which upon click will change all the three background colours of the paras respectively ?
+Q create a html page to depict a dark room with a bulb at the end of the screen create abutton to put the bulb switch on or off ?
+WRITE A JAVASCRIPT CODE THAT CAN CHANGE THE SIZE OF HTML HEADING ON THE CLICK OF A BUTTON ?

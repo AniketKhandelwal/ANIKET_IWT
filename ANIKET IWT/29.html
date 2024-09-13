@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Colors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .paragraph {
+            padding: 20px;
+            margin: 10px 0;
+            color: white; 
+        }
+        #para1 {
+            background-color: #FF5733;
+        }
+        #para2 {
+            background-color: #33FF57; 
+        }
+        #para3 {
+            background-color: #3357FF;
+        }
+    </style>
+</head>
+<body>
+    <p id="para1" class="paragraph">This is the first paragraph.</p>
+    <p id="para2" class="paragraph">This is the second paragraph.</p>
+    <p id="para3" class="paragraph">This is the third paragraph.</p>
+
+    <button onclick="changeColors()">Change Background Colors</button>
+
+    <script>
+        function getRandomColor() {
+            
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        function changeColors() {
+           
+            document.getElementById('para1').style.backgroundColor = getRandomColor();
+            document.getElementById('para2').style.backgroundColor = getRandomColor();
+            document.getElementById('para3').style.backgroundColor = getRandomColor();
+        }
+    </script>
+</body>
+</html>

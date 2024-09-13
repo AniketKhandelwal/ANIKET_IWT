@@ -1,0 +1,56 @@
+0CSS Outline - An Outline is a line drawn outside of a elements border.
+Q-Create an element that has black border and a green outline with a width of 10px ?
+(use the outline property - outline offset,style,color,width)
+Q- Create four paragraphs first with a dashed outline second with dotted and third with
+
+CSS Text -There are a lot of formatting techniques
+          color name(hex value,hsl value,rgb value) 
+	  background color property(high contrast is very important so make sure that the background color and text color is varied in nature)
+	  Text Align(to align the text we center or right)
+Q- create three diff horizontal rulers and align them all diff ?
+
+this is used to create a change in direction of a text 
+Vertical Align - The vertical align property helps to align the element in the vertical space . it can have several values such as baseline text-bottom 
+
+Text Decoration line propeerty is usedto add decoration line to the text it can have values (overline underline line-through)
+with text decoration color
+Q Create a html link to google.com on your webpage
+text transform property used to specify uppercase lowercase in text
+Create a dynamic looking name with the help of text shadow with name color white and shadow blue
+
+the css transition property is used to create a transition effect to a certain css property of an element. it can also help you to set the duration of the effect.
+--short hand property
+[ 	transition-property
+	transition-duration
+	transition-timing-function
+	transition-delay 	]
+
+
+CREATE A RED BOX 100PX IN HEIGHT AND WIDTH WHICH ROTATES WHILE ZOOMING OUT ON MOUSE HOVER?
+Create a traffic light with the help of css?
+
+								
+
+									--Practice Test--
+						
+
+What is an Internet Protocol ? Explain different types of protocol in detail.
+Differentiate between a static and a dynamic website ?
+What is the need of Internet Design prin+ciples ? State any two with their use.
+Explain the concept of client server architecture and its working with the help of a diagram ?
+
+
+Q Create two headings one visible one hidden with the help of visible property ?
+
+The CSS white-space property handles how the white-space values can be norap, pre, normal.
+
+Q Create three paras and show the different values of white space ? 
+
+The CSS width-property is used to 
+
+Q Create a div element with value 120px of width ?
+
+Align-content property specifies how flex lines are distributed along the cross axis in a flex box container. Valus can be flex-star -around, normal, stretch, center
+
+Create a html page that depicts the scorecard of two teams ?
+Create a html page that depicts the menu of the cafe ?

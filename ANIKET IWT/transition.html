@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 50%;
+        align-items: center;
+    }
+    .transitionp {
+        background: #c0385a;
+        height: 100px;
+        width: 100px;
+        transition-property: height width transform;
+        transition-duration: 3s;
+        text-decoration:solid;
+        align-items: center;
+        display: flex;
+    }
+    .ab {
+        background: #38c0a9;
+        height: 100px;
+        width: 100px;
+        transition-property: height width transform ;
+        transition-duration: 3s;
+        text-decoration:solid;
+        align-items: center;
+        display: flex;
+    }
+    .cd {
+        background: #3a38c0;
+        height: 100px;
+        width: 100px;
+        transition-property: height width transform ;
+        transition-duration: 3s;
+        text-decoration:solid;
+        align-items: center;
+        display: flex;
+    }
+    .cd:hover {
+        height: 150px;
+        width: 150px;
+        transform: scale(1.5);
+       
+    }
+    .ab:hover {
+        height: 250px;
+        width: 250px;
+        transform: scale(1.5);
+       
+    }
+    .transitionp:hover {
+        height: 400px;
+        width: 400px;
+        transform:scale(1.5)
+    }
+</style>
+<body>
+    <div class="transitionp">
+        <div class="ab">
+            <div class="cd">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
