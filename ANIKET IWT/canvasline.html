@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="mycan" height="200px" width="600px" style="border : 4px solid black"></canvas>
+    <script>
+        var canva = document.getElementById("mycan");
+        var ctx = canva.getContext("2d");
+        ctx.moveTo(40,20);
+        ctx.lineTo(250,150);
+        ctx.stroke();
+    </script>
+</body>
+</html>
